@@ -1,0 +1,22 @@
+name: wireless_chat
+description: A new Flutter project.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.5 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  hive_flutter: ^1.1.0
+  file_picker: ^5.2.10
+  bootstrap_icons: ^1.10.5+2
+  keyboard_attachable: ^2.1.0
+  wakelock: ^0.6.2
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
